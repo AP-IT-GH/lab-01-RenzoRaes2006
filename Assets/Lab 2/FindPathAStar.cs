@@ -76,7 +76,7 @@ public class FindPathAStar : MonoBehaviour {
                 }
             }
         }
-        // locations.Shuffle();    
+        // locations.Shuffle();
 
         Vector3 startLocation = new Vector3(1, 0.5f, 1);
         startNode = new PathMarker(new MapLocation(1, 1),
@@ -172,6 +172,11 @@ public class FindPathAStar : MonoBehaviour {
 
         if (hasStarted)
             if (Input.GetKeyDown(KeyCode.C)) Search(lastPos);
+
+        if(done && Input.GetKeyDown(KeyCode.R))
+        {
+            ReconstructPath();
+        }
     }
 
     // The coroutine function
@@ -204,6 +209,9 @@ public class FindPathAStar : MonoBehaviour {
         var p = closed[closed.Count-1].parent;
         while(p!= startNode)
         {
+            if (p.marker != null) {
+            p.marker.GetComponent<Renderer>().material.color = Color.magenta; 
+        }
             path.Insert(0, p);
             p = p.parent;
         }
