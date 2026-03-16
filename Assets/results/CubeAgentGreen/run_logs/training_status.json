@@ -1,0 +1,56 @@
+{
+    "CubeAgent": {
+        "checkpoints": [
+            {
+                "steps": 1152,
+                "file_path": "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-1152.onnx",
+                "reward": null,
+                "creation_time": 1773149697.4132483,
+                "auxillary_file_paths": [
+                    "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-1152.pt"
+                ]
+            },
+            {
+                "steps": 5621,
+                "file_path": "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-5621.onnx",
+                "reward": null,
+                "creation_time": 1773149882.6241307,
+                "auxillary_file_paths": [
+                    "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-5621.pt"
+                ]
+            },
+            {
+                "steps": 8096,
+                "file_path": "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-8096.onnx",
+                "reward": -0.17350000143051147,
+                "creation_time": 1773150050.1943495,
+                "auxillary_file_paths": [
+                    "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-8096.pt"
+                ]
+            },
+            {
+                "steps": 36088,
+                "file_path": "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-36088.onnx",
+                "reward": null,
+                "creation_time": 1773150842.505426,
+                "auxillary_file_paths": [
+                    "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-36088.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 36088,
+            "file_path": "results\\CubeAgentGreen\\CubeAgent.onnx",
+            "reward": null,
+            "creation_time": 1773150842.505426,
+            "auxillary_file_paths": [
+                "results\\CubeAgentGreen\\CubeAgent\\CubeAgent-36088.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}

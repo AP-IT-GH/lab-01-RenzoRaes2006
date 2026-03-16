@@ -6,6 +6,8 @@ TagManager:
   tags:
   - marker
   - Goal
+  - target
+  - goal
   layers:
   - Default
   - TransparentFX
