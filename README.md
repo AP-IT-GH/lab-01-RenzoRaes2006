@@ -19,6 +19,7 @@ Dit rapport behandelt de belangrijkste methoden en de toepassing daarvan bij het
 
  ## Conclusie
  De agent vertoont het vermogen om de volgorde van de taak — eerst het target ophalen en vervolgens naar het doel brengen — te voltooien. De interpretatie van dit gedrag wijst op een succesvolle koppeling tussen de acties en de bijbehorende beloningen (rewards).
+![Graph](GraphExerciseOne)
 
 ## Referenties
 Unity Technologies (2024). Agents - Unity ML-Agents Documentation (Version 4.0). Geraadpleegd op 16 maart 2026, van https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/Learning-Environment-Design-Agents.html
